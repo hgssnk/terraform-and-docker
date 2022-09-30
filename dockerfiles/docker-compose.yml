@@ -1,0 +1,11 @@
+version: '3'
+services:
+  terraform:
+    container_name: terraform
+    build:
+      context: .
+      dockerfile: Dockerfile_terraform
+    volumes:
+      - ../mountpoint/:/tmp/terraform
+      - ../mountpoint/.aws:/root/.aws
+    tty: true
