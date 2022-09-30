@@ -1,7 +1,7 @@
 # terraform-and-docker
 ## 使い方
 [ココ](https://pro-broccoli.com/2022/09/30/terraform-and-docker/)
-Terraformの実行環境をDockerで構築します。　　
+Terraformの実行環境をDockerで構築します。
 ## ファイルツリー
 ```bash
 .
