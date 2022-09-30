@@ -5,16 +5,16 @@ Terraformの実行環境をDockerで構築します。　　
 ## ファイルツリー
 ```bash
 .
+├── .gitignore
+├── README.md
 ├── dockerfiles
-│   ├── Dockerfile_terraform
-│   └── docker-compose.yml
+│   ├── Dockerfile_terraform
+│   └── docker-compose.yml
 └── mountpoint
     ├── .aws
-    │   ├── config
-    │   └── credentials
-    ├── .gitignore
-    ├── README.md
-    └── terraform
+    │   ├── config
+    │   └── credentials
+    └── sample
         └── main.tf
 ```
 - dockerfiles
